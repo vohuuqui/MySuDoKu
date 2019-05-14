@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MySuDoKu</string>
+	<string name="gravity">center</string>
+	<string name="orientation">vertical</string>
+</resources>

@@ -1,0 +1,1226 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/SuDoKu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="25dp"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/text2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/back"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:background="@drawable/back1"
+        android:text="1"
+        android:textColor="#ff0000"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:background="@drawable/back1"
+        android:text="2"
+        android:textColor="#ff0000"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/text1"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:background="@drawable/back1"
+        android:text="3"
+        android:textColor="#ff0000"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/text2"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:background="@drawable/back1"
+        android:text="4"
+        android:textColor="#ff0000"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/text3"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:background="@drawable/back1"
+        android:text="5"
+        android:textColor="#ff0000"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/text4"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:background="@drawable/back1"
+        android:text="6"
+        android:textColor="#ff0000"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/text5"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:background="@drawable/back1"
+        android:text="7"
+        android:textColor="#ff0000"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/text6"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:background="@drawable/back1"
+        android:text="8"
+        android:textColor="#ff0000"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/text7"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/text9"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:background="@drawable/back1"
+        android:text="9"
+        android:textColor="#ff0000"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/text8"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textA"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="6dp"
+        android:background="@drawable/back1"
+        android:gravity="center"
+        android:text="A"
+        android:textColor="#ff0000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textB"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="6dp"
+        android:background="@drawable/back1"
+        android:gravity="center"
+        android:text="B"
+        android:textColor="#ff0000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textA" />
+
+    <TextView
+        android:id="@+id/textC"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="6dp"
+        android:background="@drawable/back1"
+        android:gravity="center"
+        android:text="C"
+        android:textColor="#ff0000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textB" />
+
+    <TextView
+        android:id="@+id/textD"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="6dp"
+        android:background="@drawable/back1"
+        android:gravity="center"
+        android:text="D"
+        android:textColor="#ff0000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textC" />
+
+    <TextView
+        android:id="@+id/textE"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="6dp"
+        android:background="@drawable/back1"
+        android:gravity="center"
+        android:text="E"
+        android:textColor="#ff0000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textD" />
+
+    <TextView
+        android:id="@+id/textF"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="6dp"
+        android:background="@drawable/back1"
+        android:gravity="center"
+        android:text="F"
+        android:textColor="#ff0000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textE" />
+
+    <TextView
+        android:id="@+id/textG"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="6dp"
+        android:background="@drawable/back1"
+        android:gravity="center"
+        android:text="G"
+        android:textColor="#ff0000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textF" />
+
+    <TextView
+        android:id="@+id/textH"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="6dp"
+        android:background="@drawable/back1"
+        android:gravity="center"
+        android:text="H"
+        android:textColor="#ff0000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textG" />
+
+    <TextView
+        android:id="@+id/textI"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="6dp"
+        android:background="@drawable/back1"
+        android:gravity="center"
+        android:text="I"
+        android:textColor="#ff0000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textH" />
+
+    <Button
+        android:id="@+id/myexitbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="150dp"
+        android:text="Close"
+        android:textColor="#ff0000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/I3" />
+
+    <EditText
+        android:id="@+id/A1"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/textA"
+        app:layout_constraintTop_toBottomOf="@+id/text1" />
+
+    <EditText
+        android:id="@+id/A2"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/A1"
+        app:layout_constraintTop_toBottomOf="@+id/text2" />
+
+    <EditText
+        android:id="@+id/A3"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/A2"
+        app:layout_constraintTop_toBottomOf="@+id/text3" />
+
+    <EditText
+        android:id="@+id/A4"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/A3"
+        app:layout_constraintTop_toBottomOf="@+id/text4" />
+
+    <EditText
+        android:id="@+id/A5"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/A4"
+        app:layout_constraintTop_toBottomOf="@+id/text5" />
+
+    <EditText
+        android:id="@+id/A6"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/A5"
+        app:layout_constraintTop_toBottomOf="@+id/text6" />
+
+    <EditText
+        android:id="@+id/A7"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/A6"
+        app:layout_constraintTop_toBottomOf="@+id/text7" />
+
+    <EditText
+        android:id="@+id/A8"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/A7"
+        app:layout_constraintTop_toBottomOf="@+id/text8" />
+
+    <EditText
+        android:id="@+id/A9"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/A8"
+        app:layout_constraintTop_toBottomOf="@+id/text9" />
+
+    <EditText
+        android:id="@+id/B1"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/textB"
+        app:layout_constraintTop_toBottomOf="@+id/A1" />
+
+    <EditText
+        android:id="@+id/B2"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/B1"
+        app:layout_constraintTop_toBottomOf="@+id/A2" />
+
+    <EditText
+        android:id="@+id/B3"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/B2"
+        app:layout_constraintTop_toBottomOf="@+id/A3" />
+
+    <EditText
+        android:id="@+id/B4"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/B3"
+        app:layout_constraintTop_toBottomOf="@+id/A4" />
+
+    <EditText
+        android:id="@+id/B5"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/B4"
+        app:layout_constraintTop_toBottomOf="@+id/A5" />
+
+    <EditText
+        android:id="@+id/B6"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/B5"
+        app:layout_constraintTop_toBottomOf="@+id/A6" />
+
+    <EditText
+        android:id="@+id/B7"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/B6"
+        app:layout_constraintTop_toBottomOf="@+id/A7" />
+
+    <EditText
+        android:id="@+id/B8"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/B7"
+        app:layout_constraintTop_toBottomOf="@+id/A8" />
+
+    <EditText
+        android:id="@+id/B9"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/B8"
+        app:layout_constraintTop_toBottomOf="@+id/A9" />
+
+    <EditText
+        android:id="@+id/C1"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/textC"
+        app:layout_constraintTop_toBottomOf="@+id/B1" />
+
+    <EditText
+        android:id="@+id/C2"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/C1"
+        app:layout_constraintTop_toBottomOf="@+id/B2" />
+
+    <EditText
+        android:id="@+id/C3"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/C2"
+        app:layout_constraintTop_toBottomOf="@+id/B3" />
+
+    <EditText
+        android:id="@+id/C4"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/C3"
+        app:layout_constraintTop_toBottomOf="@+id/B4" />
+
+    <EditText
+        android:id="@+id/C5"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/C4"
+        app:layout_constraintTop_toBottomOf="@+id/B5" />
+
+    <EditText
+        android:id="@+id/C6"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/C5"
+        app:layout_constraintTop_toBottomOf="@+id/B6" />
+
+    <EditText
+        android:id="@+id/C7"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/C6"
+        app:layout_constraintTop_toBottomOf="@+id/B7" />
+
+    <EditText
+        android:id="@+id/C8"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/C7"
+        app:layout_constraintTop_toBottomOf="@+id/B8" />
+
+    <EditText
+        android:id="@+id/C9"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/C8"
+        app:layout_constraintTop_toBottomOf="@+id/B9" />
+
+    <EditText
+        android:id="@+id/D1"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/textD"
+        app:layout_constraintTop_toBottomOf="@+id/C1" />
+
+    <EditText
+        android:id="@+id/D2"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/D1"
+        app:layout_constraintTop_toBottomOf="@+id/C2" />
+
+    <EditText
+        android:id="@+id/D3"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/D2"
+        app:layout_constraintTop_toBottomOf="@+id/C3" />
+
+    <EditText
+        android:id="@+id/D4"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/D3"
+        app:layout_constraintTop_toBottomOf="@+id/C4" />
+
+    <EditText
+        android:id="@+id/D5"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/D4"
+        app:layout_constraintTop_toBottomOf="@+id/C5" />
+
+    <EditText
+        android:id="@+id/D6"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/D5"
+        app:layout_constraintTop_toBottomOf="@+id/C6" />
+
+    <EditText
+        android:id="@+id/D7"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/D6"
+        app:layout_constraintTop_toBottomOf="@+id/C7" />
+
+    <EditText
+        android:id="@+id/D8"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/D7"
+        app:layout_constraintTop_toBottomOf="@+id/C8" />
+
+    <EditText
+        android:id="@+id/D9"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/D8"
+        app:layout_constraintTop_toBottomOf="@+id/C9" />
+
+    <EditText
+        android:id="@+id/E1"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/textE"
+        app:layout_constraintTop_toBottomOf="@+id/D1" />
+
+    <EditText
+        android:id="@+id/E2"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/E1"
+        app:layout_constraintTop_toBottomOf="@+id/D2" />
+
+    <EditText
+        android:id="@+id/E3"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/E2"
+        app:layout_constraintTop_toBottomOf="@+id/D3" />
+
+    <EditText
+        android:id="@+id/E4"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/E3"
+        app:layout_constraintTop_toBottomOf="@+id/D4" />
+
+    <EditText
+        android:id="@+id/E5"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/E4"
+        app:layout_constraintTop_toBottomOf="@+id/D5" />
+
+    <EditText
+        android:id="@+id/E6"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/E5"
+        app:layout_constraintTop_toBottomOf="@+id/D6" />
+
+    <EditText
+        android:id="@+id/E7"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/E6"
+        app:layout_constraintTop_toBottomOf="@+id/D6" />
+
+    <EditText
+        android:id="@+id/E8"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/E7"
+        app:layout_constraintTop_toBottomOf="@+id/D8" />
+
+    <EditText
+        android:id="@+id/E9"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/E8"
+        app:layout_constraintTop_toBottomOf="@+id/D9" />
+
+    <EditText
+        android:id="@+id/F1"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/textF"
+        app:layout_constraintTop_toBottomOf="@+id/E1" />
+
+    <EditText
+        android:id="@+id/F2"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/F1"
+        app:layout_constraintTop_toBottomOf="@+id/E2" />
+
+    <EditText
+        android:id="@+id/F3"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/F2"
+        app:layout_constraintTop_toBottomOf="@+id/E3" />
+
+    <EditText
+        android:id="@+id/F4"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/F3"
+        app:layout_constraintTop_toBottomOf="@+id/E4" />
+
+    <EditText
+        android:id="@+id/F5"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/F4"
+        app:layout_constraintTop_toBottomOf="@+id/E5" />
+
+    <EditText
+        android:id="@+id/F6"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/F5"
+        app:layout_constraintTop_toBottomOf="@+id/E6" />
+
+    <EditText
+        android:id="@+id/F7"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/F6"
+        app:layout_constraintTop_toBottomOf="@+id/E7" />
+
+    <EditText
+        android:id="@+id/F8"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/F7"
+        app:layout_constraintTop_toBottomOf="@+id/E8" />
+
+    <EditText
+        android:id="@+id/F9"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/F8"
+        app:layout_constraintTop_toBottomOf="@+id/E9" />
+
+    <EditText
+        android:id="@+id/G1"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/textG"
+        app:layout_constraintTop_toBottomOf="@+id/F1" />
+
+    <EditText
+        android:id="@+id/G2"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/G1"
+        app:layout_constraintTop_toBottomOf="@+id/F2" />
+
+    <EditText
+        android:id="@+id/G3"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/G2"
+        app:layout_constraintTop_toBottomOf="@+id/F3" />
+
+    <EditText
+        android:id="@+id/G4"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/G3"
+        app:layout_constraintTop_toBottomOf="@+id/F4" />
+
+    <EditText
+        android:id="@+id/G5"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/G4"
+        app:layout_constraintTop_toBottomOf="@+id/F5" />
+
+    <EditText
+        android:id="@+id/G6"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/G5"
+        app:layout_constraintTop_toBottomOf="@+id/F6" />
+
+    <EditText
+        android:id="@+id/G7"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/G6"
+        app:layout_constraintTop_toBottomOf="@+id/F7" />
+
+    <EditText
+        android:id="@+id/G8"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/G7"
+        app:layout_constraintTop_toBottomOf="@+id/F8" />
+
+    <EditText
+        android:id="@+id/G9"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/G8"
+        app:layout_constraintTop_toBottomOf="@+id/F9" />
+
+    <EditText
+        android:id="@+id/H1"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/textH"
+        app:layout_constraintTop_toBottomOf="@+id/G1" />
+
+    <EditText
+        android:id="@+id/H2"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/H1"
+        app:layout_constraintTop_toBottomOf="@+id/G2" />
+
+    <EditText
+        android:id="@+id/H3"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/H2"
+        app:layout_constraintTop_toBottomOf="@+id/G3" />
+
+    <EditText
+        android:id="@+id/H4"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/H3"
+        app:layout_constraintTop_toBottomOf="@+id/G4" />
+
+    <EditText
+        android:id="@+id/H5"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/H4"
+        app:layout_constraintTop_toBottomOf="@+id/G5" />
+
+    <EditText
+        android:id="@+id/H6"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/H5"
+        app:layout_constraintTop_toBottomOf="@+id/G6" />
+
+    <EditText
+        android:id="@+id/H7"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/H6"
+        app:layout_constraintTop_toBottomOf="@+id/G7" />
+
+    <EditText
+        android:id="@+id/H8"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/H7"
+        app:layout_constraintTop_toBottomOf="@+id/G8" />
+
+    <EditText
+        android:id="@+id/H9"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/H8"
+        app:layout_constraintTop_toBottomOf="@+id/G9" />
+
+    <EditText
+        android:id="@+id/I1"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/textI"
+        app:layout_constraintTop_toBottomOf="@+id/H1" />
+
+    <EditText
+        android:id="@+id/I2"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/I1"
+        app:layout_constraintTop_toBottomOf="@+id/H2" />
+
+    <EditText
+        android:id="@+id/I3"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/I2"
+        app:layout_constraintTop_toBottomOf="@+id/H3" />
+
+    <EditText
+        android:id="@+id/I4"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/I3"
+        app:layout_constraintTop_toBottomOf="@+id/H4" />
+
+    <EditText
+        android:id="@+id/I5"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/I4"
+        app:layout_constraintTop_toBottomOf="@+id/H5" />
+
+    <EditText
+        android:id="@+id/I6"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/I5"
+        app:layout_constraintTop_toBottomOf="@+id/H6" />
+
+    <EditText
+        android:id="@+id/I7"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/I6"
+        app:layout_constraintTop_toBottomOf="@+id/H7" />
+
+    <EditText
+        android:id="@+id/I8"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/I7"
+        app:layout_constraintTop_toBottomOf="@+id/H8" />
+
+    <EditText
+        android:id="@+id/I9"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:background="@drawable/back2"
+        android:textColor="#0011ff"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toEndOf="@+id/I8"
+        app:layout_constraintTop_toBottomOf="@+id/H9" />
+
+</android.support.constraint.ConstraintLayout>
